@@ -8,7 +8,10 @@ body {
 .link {
   text-decoration: none;
 }
-:root {--basic-color:#2196f3; }
+:root {
+  --basic-color: #2196f3;
+  --color-paragraph: #757575;
+}
 .header {
   background: #ffffff;
 }
@@ -43,7 +46,7 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--color-paragraph);
 }
 
 .adress-item {
@@ -52,11 +55,11 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--color-paragraph);
 }
 .adress-item:hover,
 .adress-item:focus {
-  color:var(--basic-color);
+  color: var(--basic-color);
 }
 
 .main-heading {
@@ -76,12 +79,10 @@ body {
 
 .main-btn {
   background-color: var(--basic-color);
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
@@ -91,7 +92,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
-  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -108,11 +108,10 @@ body {
 
 .benefits-paragraph {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-paragraph);
 }
 
 .developer-heading {
@@ -120,7 +119,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
-  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -130,7 +128,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
-  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -148,11 +145,10 @@ body {
 .team-paragraph {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-paragraph);
 }
 
 .footer-list {
@@ -166,7 +162,6 @@ body {
 .address-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -176,7 +171,6 @@ body {
 .footer-list {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -192,19 +186,19 @@ body {
   color: var(--basic-color);
 }
 
-.list-btn .btn-item {
-  background-color: #f5f4fa;
-  font-family: "Roboto", sans-serif;
+.btn-item {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
+  text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
   cursor: pointer;
 }
 .btn-item:hover,
 .btn-item:focus {
   background-color: var(--basic-color);
+  color: #ffffff;
 }
 
 .example-heading {
@@ -218,9 +212,8 @@ body {
 
 .example-paragraph {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-paragraph);
 }
