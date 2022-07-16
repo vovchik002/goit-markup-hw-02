@@ -11,6 +11,7 @@ body {
 :root {
   --basic-color: #2196f3;
   --color-paragraph: #757575;
+  --color-heading: #212121;
 }
 .header {
   background: #ffffff;
@@ -28,12 +29,11 @@ body {
 }
 
 .header-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--color-heading)
 }
 
 .header-link:hover,
@@ -41,7 +41,6 @@ body {
   color: var(--basic-color);
 }
 .header-adress {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -50,7 +49,6 @@ body {
 }
 
 .adress-item {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -67,7 +65,6 @@ body {
 }
 
 .main-caption {
-  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -88,26 +85,23 @@ body {
   cursor: pointer;
 }
 .benefits-list {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 14px;
-  line-height: calc(16 / 14);
+  font-size: 36px;
+  line-height: calc(42/36);
+  text-align: center;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
+  color: var(--color-heading);
 }
 .benefits-heading {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--color-heading);
 }
 
 .benefits-paragraph {
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -115,35 +109,31 @@ body {
 }
 
 .developer-heading {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 14px;
-  line-height: calc(16 / 14);
+  font-size: 36px;
+  line-height: calc(42/36);
+  text-align: center;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
+  color: var(--color-heading);
 }
 .team-list {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 14px;
-  line-height: calc(16 / 14);
+  font-size: 36px;
+  line-height: calc(42/36);
+  text-align: center;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
+  color: var(--color-heading);
 }
 
 .team-heading {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--color-heading);
 }
 
 .team-paragraph {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -160,7 +150,6 @@ body {
 }
 
 .address-link {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -169,7 +158,6 @@ body {
 }
 
 .footer-list {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -202,16 +190,13 @@ body {
 }
 
 .example-heading {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--color-heading);
 }
 
 .example-paragraph {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
